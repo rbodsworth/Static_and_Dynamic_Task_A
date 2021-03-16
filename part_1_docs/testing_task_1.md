@@ -16,7 +16,7 @@ Only comment on errors that would stop the tests running.
 
 class CardGame:
 
-# missing comma after else
+# missing colon after else, equals operator should be == 
   def check_for_ace(self, card):
     if card.value = 1:
       return True
@@ -32,7 +32,7 @@ class CardGame:
     return card2
   
 
-
+#total not defined, should be 0, 
 def cards_total(self, cards):
   total # should be = 0 
   for card in cards:
